@@ -1,0 +1,11 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

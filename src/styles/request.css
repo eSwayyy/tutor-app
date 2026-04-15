@@ -1,0 +1,9 @@
+.request {
+  text-align: center;
+}
+
+.request input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+}

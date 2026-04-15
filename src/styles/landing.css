@@ -1,0 +1,51 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #031926, #1e3a5f);
+}
+
+.landing h1 {
+  color: #031926;
+  margin-bottom: 20px;
+}
+
+.landing-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.landing-box h1 {
+  margin: 0;
+}
+
+.landing-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.landing-box button {
+  padding: 10px;
+  background: #031926;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.landing-box button:hover {
+  background: #062f4f;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
